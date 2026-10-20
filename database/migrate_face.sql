@@ -1,0 +1,3 @@
+USE `bio_attendance`;
+CREATE TABLE IF NOT EXISTS `face_profiles` (`employee_id` INT PRIMARY KEY, `consent_at` DATETIME NOT NULL, `enrolled_by` INT NULL, `created_at` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP, CONSTRAINT `fk_fp_emp` FOREIGN KEY (`employee_id`) REFERENCES `employees`(`id`) ON DELETE CASCADE) ENGINE=InnoDB;
+CREATE TABLE IF NOT EXISTS `face_templates` (`id` INT AUTO_INCREMENT PRIMARY KEY, `employee_id` INT NOT NULL, `descriptor` TEXT NOT NULL, KEY `idx_ft_emp` (`employee_id`), CONSTRAINT `fk_ft_emp` FOREIGN KEY (`employee_id`) REFERENCES `employees`(`id`) ON DELETE CASCADE) ENGINE=InnoDB;

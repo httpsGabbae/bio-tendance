@@ -1,0 +1,2 @@
+# bio-tendance root — no rewrites; includes/*.php produce no output when hit directly
+# (Apache-safe: no RedirectMatch without target URL)

@@ -1,0 +1,24 @@
+# Vercel CLI uploads should exclude local data and project archives.
+/storage/
+/FACE/
+*.zip
+*.tar
+*.tar.gz
+*.7z
+/backups/
+/database/backups/
+*.dump
+*.sql.gz
+*.bak
+.env
+.env.*
+!.env.example
+!.env.sample
+*.local.php
+*.log
+*.tmp
+*.cache
+/node_modules/
+/coverage/
+/tmp/
+/temp/

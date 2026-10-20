@@ -1,0 +1,44 @@
+# Local credentials and environment overrides
+.env
+.env.*
+!.env.example
+!.env.sample
+*.local.php
+
+# Biometric photos and other runtime data
+/storage/
+
+# Duplicate project snapshot and packaged archives
+/FACE/
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# Database dumps and local backups (keep database/schema.sql and migrations)
+/backups/
+/database/backups/
+*.dump
+*.sql.gz
+*.bak
+
+# Local build, dependency, and deployment output
+/node_modules/
+/.vercel/
+/coverage/
+/tmp/
+/temp/
+
+# Logs, caches, and editor/OS files
+*.log
+*.tmp
+*.cache
+.phpunit.result.cache
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
