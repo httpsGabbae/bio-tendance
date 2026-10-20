@@ -63,21 +63,21 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   </div>
   <script type="module">
   // Import the functions you need from the SDKs you need
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/13.0.0/firebase-app.js";
-  import { getAnalytics } from "https://www.gstatic.com/firebasejs/13.0.0/firebase-analytics.js";
+  import { initializeApp } from "zzz";
+  import { getAnalytics } from "zzz";
   // TODO: Add SDKs for Firebase products that you want to use
   // https://firebase.google.com/docs/web/setup#available-libraries
 
   // Your web app's Firebase configuration
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
   const firebaseConfig = {
-    apiKey: "AIzaSyAby3r1shAdyqx-p2ncT4oI8pvmLf7Wfu4",
-    authDomain: "astra-d344a.firebaseapp.com",
-    projectId: "astra-d344a",
-    storageBucket: "astra-d344a.firebasestorage.app",
-    messagingSenderId: "427453100868",
-    appId: "1:427453100868:web:53eec0050f44d00c279d11",
-    measurementId: "G-5KMX8EGX0W"
+    apiKey: "zzz",
+    authDomain: "zzz",
+    projectId: "zzz",
+    storageBucket: "zzz",
+    messagingSenderId: "zzz",
+    appId: "zzz",
+    measurementId: "zzz"
   };
 
   // Initialize Firebase
